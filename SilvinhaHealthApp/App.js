@@ -5,9 +5,9 @@ export default function App() {
   return (
     <View style={styles.container}>
       <View style={styles.titleBox}>
-        <Text style={styles.titleText}>SilvinhaHealthApp</Text>
+        <Text style={styles.titleText}>Silvinha</Text>
       </View>
-      
+
       <StatusBar style="auto" />
     </View>
   );
@@ -16,7 +16,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#e0e5e5',
+    backgroundColor: 'e0e5e5',
     paddingTop: 50,
   },
 });

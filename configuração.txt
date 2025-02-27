@@ -1,0 +1,15 @@
+git config --global user.name IvanSSantana
+git config --global user.email ivansantospriv@gmail.com
+
+Abrir terminal: Ctrl + '
+
+*Não é para aparecer nada no terminal*
+
+Criar um projeto Reac Native com Expo:
+npx create-expo-app@latest SilvinhaHealthApp --template blank (vem com configurações prontas com TypeScript, coisa que o template blank remove)
+
+cd SilvinhaHealthApp
+
+Extensão: ES7+ React/Redux/React-Native snippet
+
+npx expo start --localhost --android

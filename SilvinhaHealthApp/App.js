@@ -5,8 +5,16 @@ export default function App() {
   return (
     <SafeAreaView style={styles.container}>
       <SafeAreaView style={styles.titleBox}>
-        <Text style={styles.titleText}>Silvinha Health</Text>
+        <Text style={styles.titleText}>Silvinha Health App</Text>
       </SafeAreaView>
+
+      <View style={styles.content}>
+      <Text style={styles.subTitle}>Calculadora de IMC</Text>
+
+      <View>
+        <Text style={styles.label}>Altura:</Text>
+      </View>
+      </View>
 
       <StatusBar style="light" />
     </SafeAreaView>
@@ -31,5 +39,18 @@ const styles = StyleSheet.create({
     fontSize: 28,
     fontWeight: 'bold',
     marginBottom: 20,
+  },
+  content: {
+    flex: 1,
+    padding: 40,
+    width: '100%',
+    backgroundColor: '#edf2f4'
+  },
+  subTitle: {
+    fontSize: 20,
+    textAlign: 'center',
+    color: '#ef233c',
+    fontWeight: 'bold',
+    marginBottom: 40
   }
 });

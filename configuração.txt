@@ -12,4 +12,7 @@ cd SilvinhaHealthApp
 
 Extensão: ES7+ React/Redux/React-Native snippet
 
+npm i
+
 npx expo start --localhost --android
+
